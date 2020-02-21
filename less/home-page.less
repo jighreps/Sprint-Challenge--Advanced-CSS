@@ -73,7 +73,16 @@
       }
 
       .btn {
-        
+        .pad-font(2.5%, 2em);
+        background-color: @btn-bg-color;
+        color:#f1f1f1;
+        width: 35%;
+        border-radius: 10px;
+        .position-mix();
+
+        &:hover{
+          background-color: lighten(#22283A, 50%);
+        }
       }
     }
 
